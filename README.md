@@ -1,32 +1,37 @@
-# 💳 Credit Card Fraud Detection
+# 🔐 Real-Time Transaction Fraud Detection System with Power BI Dashboards
 
-🔍 **About the Project**  
-This project is a full-fledged machine learning pipeline designed for the real-time detection of credit card frauds. It integrates multiple components including machine learning models, REST APIs, local database storage, and data visualization tools such as Power BI. The goal is to enable fast, accurate, and interpretable fraud detection that can be deployed in financial systems.
+## 🔍 Project Overview
 
-This project includes:
-- A robust Flask API for transaction classification
-- Integration with MySQL to store prediction logs
-- Power BI dashboards that visualize fraud trends in real-time (locally)
-- A user-friendly UI hosted on Render for manual transaction input
-- Fully tuned ML models using GridSearchCV for optimal accuracy
+This project delivers a complete machine learning pipeline for real-time transaction fraud detection. It combines predictive modeling, RESTful API services, database storage, and dynamic visualization using Power BI — offering a production-ready framework for financial fraud prevention.
+
+### This system features:
+- A scalable Flask API for real-time predictions
+- MySQL integration for transaction log persistence
+- Interactive Power BI dashboards (local) for fraud insight
+- A web-based UI hosted on Render for manual testing
+- GridSearchCV-tuned machine learning models for performance
+
+---
+
+## 🚀 Key Features
+
+- 🔗 Real-time classification of fraudulent transactions
+- 🧠 Hyperparameter optimization using GridSearchCV
+- 💾 Local MySQL database to track transaction logs
+- 📊 Power BI dashboard connected to live database
+- 🌐 Simple web interface for user-submitted transactions
+- 📮 REST API support, verified using Postman
+- 📁 Clean, modular structure for easy understanding and deployment
 
 ---
 
-## 🚀 Features
+## 📁 Folder Structure
 
-- 🔗 Real-time fraud detection with multiple machine learning models
-- 🧠 Optimized ML models using GridSearchCV for parameter tuning
-- 💾 Local MySQL database to store incoming transaction predictions
-- 📊 Visual analytics using Power BI connected directly to MySQL
-- 🌐 Web-based user interface (HTML/CSS + Flask) for easy data entry
-- 📮 RESTful API tested with Postman
-- 📁 Modular project layout for easy understanding and expansion
 
----
 
 ## 📁 Project Structure
 
-```credit-card-fraud-detection/
+```Real-Time-Transaction-Fraud-Detection-System-with-Power-BI-Dashboards/
 ├── app.py                 # Main Flask web app serving the UI and predictions
 ├── appsql.py              # Alternate Flask app using MySQL to store results
 ├── config.py              # Configuration file containing MySQL credentials
@@ -65,8 +70,8 @@ This project includes:
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/sonikirtan110/credit-card-fraud-detection.git
-cd credit-card-fraud-detection
+git clone https://github.com/noumannahmad/Real-Time-Transaction-Fraud-Detection-System-with-Power-BI-Dashboards.git
+cd Real-Time-Transaction-Fraud-Detection-System-with-Power-BI-Dashboards
 ```
 
 ### 2. Install Dependencies
