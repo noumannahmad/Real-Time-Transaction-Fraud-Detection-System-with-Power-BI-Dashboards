@@ -28,7 +28,7 @@ This project delivers a complete machine learning pipeline for real-time transac
 ## 📁 Folder Structure
 
 ```
-📁 eal-Time-Transaction-Fraud-Detection-System-with-Power-BI-Dashboards/
+📁 Real-Time-Transaction-Fraud-Detection-System-with-Power-BI-Dashboards/
 ├── app.py                        # Main Flask app with UI and prediction endpoint
 ├── appsql.py                     # Alternate Flask app with MySQL logging integration
 ├── config.py                     # Database connection configuration (MySQL)
