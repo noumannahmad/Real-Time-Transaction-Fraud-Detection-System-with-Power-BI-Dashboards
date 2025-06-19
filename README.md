@@ -213,14 +213,4 @@ Fraud rate vs time of day/week.
 ## 📜 License
 Apache 2.0 — You’re free to use, modify, and distribute with attribution.
 
----
-
-## 📬 Contact
-**Kirtan Soni**  
-📧 sonikirtan2004@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/kirtansoni02)
-
----
-
-⭐ If you like this project, please star the repository and share!
 
