@@ -27,36 +27,43 @@ This project delivers a complete machine learning pipeline for real-time transac
 
 ## 📁 Folder Structure
 
-```Real-Time-Transaction-Fraud-Detection-System-with-Power-BI-Dashboards/
-├── app.py                 # Main Flask web app serving the UI and predictions
-├── appsql.py              # Alternate Flask app using MySQL to store results
-├── config.py              # Configuration file containing MySQL credentials
-├── sql/                   # SQL scripts for setting up the database
-│   ├── create_table.sql   # SQL command to create fraud_logs table
-│   └── data.sql    # Sample insert statements to test the table
-├── models/                # Serialized models after training
+```
+📁 real-time-fraud-detection/
+├── app.py                        # Main Flask app with UI and prediction endpoint
+├── appsql.py                     # Alternate Flask app with MySQL logging integration
+├── config.py                     # Database connection configuration (MySQL)
+│
+├── sql/                          # SQL scripts for database setup
+│   ├── create_table.sql          # Creates fraud_transactions table
+│   └── data.sql                  # Sample data insertion script
+│
+├── models/                       # Pre-trained and serialized machine learning models
 │   ├── best_fraud_detection_model.pkl
 │   └── best_fraud_detection_pipeline1.1.pkl.bz2
-├── notebooks/             # Jupyter Notebooks used during model building
-│   ├── TryFinal.ipynb     # Full training/testing pipeline
-│   └── TryFinalTunning.ipynb # GridSearchCV and tuning
-├── templates/             # HTML files for the Flask UI
-│   └── index.html         # Homepage for data entry
-├── images/                # Project screenshots
-│   ├── 1.png                          # Home page screenshot
-│   ├── 2.png                          # About page screenshot
-│   ├── flow_diagram.png              # System architecture flow
-│   ├── postman_test.png              # Postman test example
-│   ├── mysql_connection.png          # MySQL config in Power BI
-│   ├── powerbi_mysql.png             # Power BI table preview
-│   ├── transaction_overview.png      # Dashboard 1
-│   ├── demographic_insights.png      # Dashboard 2
-│   ├── geographic_analysis.png       # Dashboard 3
-│   ├── merchant_category.png         # Dashboard 4
-│   └── temporal_analysis.png         # Dashboard 5
-├── requirements.txt       # Python libraries used
-├── Projectppt.pptx        # Final presentation slides
-└── README.md              # Project documentation
+│
+├── notebooks/                    # Jupyter Notebooks for model development
+│   ├── TryFinal.ipynb            # Model training and evaluation pipeline
+│   └── TryFinalTunning.ipynb     # Hyperparameter tuning using GridSearchCV
+│
+├── templates/                    # Frontend templates for Flask (HTML)
+│   └── index.html                # UI for manual transaction input
+│
+├── images/                       # Visual assets and screenshots
+│   ├── 1.png                     # Homepage UI preview
+│   ├── 2.png                     # About page preview
+│   ├── flow_diagram.png          # System architecture flowchart
+│   ├── postman_test.png          # Postman request/response example
+│   ├── mysql_connection.png      # MySQL-Power BI setup screenshot
+│   ├── powerbi_mysql.png         # Power BI table data preview
+│   ├── transaction_overview.png  # Dashboard: Transaction Summary
+│   ├── demographic_insights.png  # Dashboard: Demographics
+│   ├── geographic_analysis.png   # Dashboard: Regional Fraud Analysis
+│   ├── merchant_category.png     # Dashboard: Merchant Category Breakdown
+│   └── temporal_analysis.png     # Dashboard: Temporal Fraud Trends
+│
+├── requirements.txt              # Python dependencies for the project
+├── Projectppt.pptx               # Final project presentation slide deck
+└── README.md                     # Project documentation
 
 ```
 
